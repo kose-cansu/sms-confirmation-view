@@ -19,11 +19,11 @@ internal object SmsConfirmationViewStyleUtils {
                 width = resources.getDimensionPixelSize(R.dimen.symbol_view_width),
                 height = resources.getDimensionPixelSize(R.dimen.symbol_view_height),
 
-                filledBorderColor = context.getThemeColor(R.attr.colorSurface),
-                filledBackgroundColor = context.getThemeColor(R.attr.colorSurface),
-                backgroundColor = context.getThemeColor(R.attr.colorSurface),
-                borderColor = context.getThemeColor(R.attr.colorPrimary),
-                borderColorActive = context.getThemeColor(R.attr.colorPrimary),
+                filledBorderColor = context.getThemeColor(MaterialR.attr.colorOnSurface),
+                filledBackgroundColor = context.getThemeColor(MaterialR.attr.colorOnSurface),
+                backgroundColor = context.getThemeColor(MaterialR.attr.colorOnSurface),
+                borderColor = context.getThemeColor(MaterialR.attr.colorOnSurface),
+                borderColorActive = context.getThemeColor(MaterialR.attr.colorOnSurface),
 
                 borderWidth = resources.getDimensionPixelSize(R.dimen.symbol_view_stroke_width),
                 borderCornerRadius = resources.getDimension(R.dimen.symbol_view_corner_radius),
