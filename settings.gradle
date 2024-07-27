@@ -1,3 +1,4 @@
 include ':library'
 include ':sample'
+include ':app'
 rootProject.name = "SmsConfirmationView"
